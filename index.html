@@ -235,6 +235,10 @@
       color: var(--primary);
     }
 
+    .header-contact { flex:1 1 360px; display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:.35rem .55rem; font-size:.8rem; color:var(--text-muted); white-space:nowrap; }
+    .header-contact strong { color:var(--text-main); }
+    .header-contact a { color:var(--primary); font-weight:600; text-decoration:none; }
+    .header-contact a:hover,.header-contact a:focus { text-decoration:underline; }
     .data-audit-btn {
       background: var(--surface-alt);
       border: 1px solid var(--border);
@@ -1037,6 +1041,8 @@
             Toebehoren <span class="nav-count" id="countToebehoren">212</span>
 </button>
 </div>
+<div class="header-contact" aria-label="Contactgegevens"><strong>Contact:</strong> <a href="mailto:daisy.de.ruyter@gmail.com">daisy.de.ruyter@gmail.com</a><span>•</span><a href="tel:+32478607089">+32 478 60 70 89</a></div>
+
 <button class="data-audit-btn" id="openAuditModal" type="button">
 <svg fill="none" height="15" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="15">
 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
